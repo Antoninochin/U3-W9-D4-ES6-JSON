@@ -113,7 +113,9 @@ let abb = [
         "saldo":60
       }
   ]
-
+// let abbigl = "./json/Abbigliamento.json";
+// let pr = fetch(abbigl).then(response => response.json()
+// // console.log(abbigl)
 for(let i =0; i < abb.length;i++){
     let indumento = new Capo(abb[i].id,abb[i].codprod,abb[i].collezione,abb[i].modello,abb[i].quantita,abb[i].disponibile,abb[i].capo,abb[i].colore,abb[i].prezzoivaesclusa,abb[i].prezzoivainclusa,abb[i].saldo)
     console.log(indumento)
@@ -123,8 +125,9 @@ for(let i =0; i < abb.length;i++){
 
 
 
-// let indumento = new Capo(abb[0].id,abb[0].codprod,abb[0].collezione,abb[0].modello,abb[0].quantita,abb[0].disponibile,abb[0].capo,abb[0].colore,abb[0].prezzoivaesclusa,abb[0].prezzoivainclusa,abb[0].saldo,)
-// let indumento2 = new Capo(abb[1].id,abb[1].codprod,abb[1].collezione,abb[1].modello,abb[1].quantita,abb[1].disponibile,abb[1].capo,abb[1].colore,abb[1].prezzoivaesclusa,abb[1].prezzoivainclusa,abb[1].saldo,)
-// let indumento3 = new Capo(abb[2].id,abb[2].codprod,abb[2].collezione,abb[2].modello,abb[2].quantita,abb[2].disponibile,abb[2].capo,abb[2].colore,abb[2].prezzoivaesclusa,abb[2].prezzoivainclusa,abb[2].saldo,)
-// let indumento4 = new Capo(abb[3].id,abb[3].codprod,abb[3].collezione,abb[3].modello,abb[3].quantita,abb[3].disponibile,abb[3].capo,abb[3].colore,abb[3].prezzoivaesclusa,abb[3].prezzoivainclusa,abb[3].saldo,)
-// let indumento5 = new Capo(abb[4].id,abb[4].codprod,abb[4].collezione,abb[4].modello,abb[4].quantita,abb[4].disponibile,abb[4].capo,abb[4].colore,abb[4].prezzoivaesclusa,abb[4].prezzoivainclusa,abb[4].saldo,)
+ let indumento = new Capo(abb[0].id,abb[0].codprod,abb[0].collezione,abb[0].modello,abb[0].quantita,abb[0].disponibile,abb[0].capo,abb[0].colore,abb[0].prezzoivaesclusa,abb[0].prezzoivainclusa,abb[0].saldo,)
+ let indumento2 = new Capo(abb[1].id,abb[1].codprod,abb[1].collezione,abb[1].modello,abb[1].quantita,abb[1].disponibile,abb[1].capo,abb[1].colore,abb[1].prezzoivaesclusa,abb[1].prezzoivainclusa,abb[1].saldo,)
+ let indumento3 = new Capo(abb[2].id,abb[2].codprod,abb[2].collezione,abb[2].modello,abb[2].quantita,abb[2].disponibile,abb[2].capo,abb[2].colore,abb[2].prezzoivaesclusa,abb[2].prezzoivainclusa,abb[2].saldo,)
+ let indumento4 = new Capo(abb[3].id,abb[3].codprod,abb[3].collezione,abb[3].modello,abb[3].quantita,abb[3].disponibile,abb[3].capo,abb[3].colore,abb[3].prezzoivaesclusa,abb[3].prezzoivainclusa,abb[3].saldo,)
+ let indumento5 = new Capo(abb[4].id,abb[4].codprod,abb[4].collezione,abb[4].modello,abb[4].quantita,abb[4].disponibile,abb[4].capo,abb[4].colore,abb[4].prezzoivaesclusa,abb[4].prezzoivainclusa,abb[4].saldo,)
+ console.log(indumento, indumento2,indumento3, indumento4, indumento5)
